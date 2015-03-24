@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2012-01-18T12:47:00Z</meta>
     <!-- Id, referenced above - often in Reverse domain name notation -->
     <dc:identifier id="pub-id">edu.nyu.itp.future-of-publishing.moby-dick</dc:identifier>
     <!-- Basic Metadata -->
@@ -11,13 +13,13 @@
     <!-- Frontmater -->
     <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
-    <!-- Inages -->
-    <item id="cover-image" properties="cover-image" href="images/9780316000000.jpg"
+    <!-- Images -->
+    <item id="cover-image" properties="cover-image" href="images/cover.jpg"
       media-type="image/jpeg"/>
     <!-- Stylesheets -->
     <item id="style" href="css/stylesheet.css" media-type="text/css"/>
     <!-- Chapters -->
-    <item id="xchapter_001" href="chapter_001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_001" href="chapter_001.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <!-- Frontmater -->
