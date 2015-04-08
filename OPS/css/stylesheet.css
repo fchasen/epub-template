@@ -1,7 +1,17 @@
+@font-face {
+    font-family: 'alluraregular';
+    src: url('../fonts/allura-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   font-family: Georgia, serif;
   font-size: 1em;
   line-height: 1.33em;
+  width: 1024px;
+  height: 768px;
+  position: relative;
 }
 
 /* Book Title */
@@ -12,7 +22,8 @@ h1 {
 
 /* Chapter Title */
 h2 {
-  font-size: 1.33em;
+  font-family: 'alluraregular';
+  font-size: 2.33em;
   line-height: 1.2em;
 }
 
