@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id">
+<package xmlns="http://www.idpf.org/2007/opf" prefix="rendition: http://www.idpf.org/vocab/rendition/#" version="3.0" xml:lang="en" unique-identifier="pub-id">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:language>en-US</dc:language>
     <meta property="dcterms:modified">2012-01-18T12:47:00Z</meta>
     <!-- Id, referenced above - in Reverse domain name notation -->
-    <dc:identifier id="pub-id">edu.nyu.itp.future-of-publishing.alice-in-wonderland-fixed</dc:identifier>
+    <dc:identifier id="pub-id">edu.nyu.itp.future-of-publishing.peter-rabbit</dc:identifier>
     <!-- Basic Metadata -->    
     <dc:rights>Public domain in the USA.</dc:rights>
-    <dc:creator>Lewis Carroll</dc:creator>
+    <dc:creator>Beatrix Potter</dc:creator>
     <dc:contributor>Gordon Robinson</dc:contributor>
-    <dc:title>Alice's Adventures in Wonderland</dc:title>
-    <dc:subject>Fantasy</dc:subject>
-    <dc:source>http://www.gutenberg.org/files/19033/19033-h/19033-h.htm</dc:source>
+    <dc:title>The Tale of Peter Rabbit</dc:title>
+    <dc:subject>Beatrix Potter</dc:subject>
+    <dc:source>http://www.gutenberg.org/files/14838/14838-h/14838-h.htm</dc:source>
     
     <meta content="coverpage" name="cover"/>
     
-    <!-- ePUB 3.0 Renditions and Media Overlays -->
-    <meta property="rendition:layout">pre-paginated</meta>	<!-- (?) http://idpf.org/epub/fxl/#property-defs -->
-    <meta property="rendition:layout">landscape</meta>
-    <meta property="rendition:spread">landscape</meta>
+    <!-- Fixed layout rendition -->
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">auto</meta>
+    <meta property="rendition:spread">none</meta>
     
   </metadata>
   <manifest>
@@ -28,36 +28,37 @@
     <!-- Stylesheets -->
     <item id="style" href="css/stylesheet.css" media-type="text/css"/>
     <!-- Images -->
-    <item id="cover-image" properties="cover-image" href="images/cover_th.jpg" media-type="image/jpeg"/>
-    <item id="i001_th" href="images/i001_th.jpg" media-type="image/jpeg"/>
-    <item id="i002_th" href="images/i002_th.jpg" media-type="image/jpeg"/>
-    <item id="i003_th" href="images/i003_th.jpg" media-type="image/jpeg"/>
-    <item id="i004_th" href="images/i004_th.jpg" media-type="image/jpeg"/>
-    <item id="i005_th" href="images/i005_th.jpg" media-type="image/jpeg"/>
-    <item id="i006_th" href="images/i006_th.jpg" media-type="image/jpeg"/>
-    <item id="i007_th" href="images/i007_th.jpg" media-type="image/jpeg"/>
-    <item id="i008_th" href="images/i008_th.jpg" media-type="image/jpeg"/>
-    <item id="i009_th" href="images/i009_th.jpg" media-type="image/jpeg"/>
-    <item id="i010_th" href="images/i010_th.jpg" media-type="image/jpeg"/>
-    <item id="i011_th" href="images/i011_th.jpg" media-type="image/jpeg"/>
-    <item id="i012_th" href="images/i012_th.jpg" media-type="image/jpeg"/>
-    <item id="i013_th" href="images/i013_th.jpg" media-type="image/jpeg"/>
-    <item id="i014_th" href="images/i014_th.jpg" media-type="image/jpeg"/>
-    <item id="i015_th" href="images/i015_th.jpg" media-type="image/jpeg"/>
-    <item id="i016_th" href="images/i016_th.jpg" media-type="image/jpeg"/>
-    <item id="i017_th" href="images/i017_th.jpg" media-type="image/jpeg"/>
-    <item id="i018_th" href="images/i018_th.jpg" media-type="image/jpeg"/>
-    <item id="i019_th" href="images/i019_th.jpg" media-type="image/jpeg"/>
-    <item id="i020_th" href="images/i020_th.jpg" media-type="image/jpeg"/>
-    <item id="i022_th" href="images/i022_th.jpg" media-type="image/jpeg"/>
-    <item id="ii021_th" href="images/ii021_th.jpg" media-type="image/jpeg"/>
-    <item id="plate01_th" href="images/plate01_th.jpg" media-type="image/jpeg"/>
-    <item id="plate02_th" href="images/plate02_th.jpg" media-type="image/jpeg"/>
-    <item id="plate03_th" href="images/plate03_th.jpg" media-type="image/jpeg"/>
-    <item id="plate04_th" href="images/plate04_th.jpg" media-type="image/jpeg"/>
-    <item id="title-img" href="images/title.jpg" media-type="image/jpeg"/>
+    <item id="cover-image" properties="cover-image" href="images/cover.jpg" media-type="image/jpeg"/>
+    <item href="images/peter04.jpg" id="item1" media-type="image/jpeg"/>
+    <item href="images/peter02.gif" id="item2" media-type="image/gif"/>
+    <item href="images/peter08.jpg" id="item3" media-type="image/jpeg"/>
+    <item href="images/peter11.jpg" id="item4" media-type="image/jpeg"/>
+    <item href="images/peter12.jpg" id="item5" media-type="image/jpeg"/>
+    <item href="images/peter15.jpg" id="item6" media-type="image/jpeg"/>
+    <item href="images/peter16.jpg" id="item7" media-type="image/jpeg"/>
+    <item href="images/peter19.jpg" id="item8" media-type="image/jpeg"/>
+    <item href="images/peter20.jpg" id="item9" media-type="image/jpeg"/>
+    <item href="images/peter23.jpg" id="item10" media-type="image/jpeg"/>
+    <item href="images/peter24.jpg" id="item11" media-type="image/jpeg"/>
+    <item href="images/peter27.jpg" id="item12" media-type="image/jpeg"/>
+    <item href="images/peter28.jpg" id="item13" media-type="image/jpeg"/>
+    <item href="images/peter31.jpg" id="item14" media-type="image/jpeg"/>
+    <item href="images/peter32.jpg" id="item15" media-type="image/jpeg"/>
+    <item href="images/peter35.jpg" id="item16" media-type="image/jpeg"/>
+    <item href="images/peter36.jpg" id="item17" media-type="image/jpeg"/>
+    <item href="images/peter39.jpg" id="item18" media-type="image/jpeg"/>
+    <item href="images/peter40.jpg" id="item19" media-type="image/jpeg"/>
+    <item href="images/peter43.jpg" id="item20" media-type="image/jpeg"/>
+    <item href="images/peter44.jpg" id="item21" media-type="image/jpeg"/>
+    <item href="images/peter47.jpg" id="item22" media-type="image/jpeg"/>
+    <item href="images/peter48.jpg" id="item23" media-type="image/jpeg"/>
+    <item href="images/peter51.jpg" id="item24" media-type="image/jpeg"/>
+    <item href="images/peter52.jpg" id="item25" media-type="image/jpeg"/>
+    <item href="images/peter55.jpg" id="item26" media-type="image/jpeg"/>
+    <item href="images/peter57.jpg" id="item27" media-type="image/jpeg"/>
+    <item href="images/peter58.jpg" id="item28" media-type="image/jpeg"/>
     <!-- Fonts -->
-    <item id="allura-woff" properties="nav" href="fonts/allura-regular.woff" media-type=" application/font-woff"/>
+    <item id="allura-woff" href="fonts/allura-regular.woff" media-type="application/font-woff"/>
     <!-- Chapters -->
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter_001" href="chapter_001.xhtml" media-type="application/xhtml+xml"/>
@@ -70,12 +71,25 @@
     <item id="chapter_008" href="chapter_008.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter_009" href="chapter_009.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter_010" href="chapter_010.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_011" href="chapter_011.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_012" href="chapter_012.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_013" href="chapter_013.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_014" href="chapter_014.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_015" href="chapter_015.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_016" href="chapter_016.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_017" href="chapter_017.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_018" href="chapter_018.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_019" href="chapter_019.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_020" href="chapter_020.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_021" href="chapter_021.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_022" href="chapter_022.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_023" href="chapter_023.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_024" href="chapter_024.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_025" href="chapter_025.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_026" href="chapter_026.xhtml" media-type="application/xhtml+xml"/>
+
   </manifest>
   <spine>
-    <!-- Frontmater -->
-    <itemref idref="cover" linear="no"/>
-    <itemref idref="toc" linear="no"/>
-    <!-- Chapters -->
     <itemref linear="yes" idref="titlepage"/>
     <itemref linear="yes" idref="chapter_001"/>
     <itemref linear="yes" idref="chapter_002"/>
@@ -87,5 +101,21 @@
     <itemref linear="yes" idref="chapter_008"/>
     <itemref linear="yes" idref="chapter_009"/>
     <itemref linear="yes" idref="chapter_010"/>
+    <itemref linear="yes" idref="chapter_011"/>
+    <itemref linear="yes" idref="chapter_012"/>
+    <itemref linear="yes" idref="chapter_013"/>
+    <itemref linear="yes" idref="chapter_014"/>
+    <itemref linear="yes" idref="chapter_015"/>
+    <itemref linear="yes" idref="chapter_016"/>
+    <itemref linear="yes" idref="chapter_017"/>
+    <itemref linear="yes" idref="chapter_018"/>
+    <itemref linear="yes" idref="chapter_019"/>
+    <itemref linear="yes" idref="chapter_020"/>
+    <itemref linear="yes" idref="chapter_021"/>
+    <itemref linear="yes" idref="chapter_022"/>
+    <itemref linear="yes" idref="chapter_023"/>
+    <itemref linear="yes" idref="chapter_024"/>
+    <itemref linear="yes" idref="chapter_025"/>
+    <itemref linear="yes" idref="chapter_026"/>
   </spine>
 </package>

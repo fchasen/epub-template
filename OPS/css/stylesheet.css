@@ -12,6 +12,8 @@ body {
   width: 1024px;
   height: 768px;
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 /* Book Title */
@@ -25,6 +27,7 @@ h2 {
   font-family: 'alluraregular';
   font-size: 2.33em;
   line-height: 1.2em;
+  clear: both;
 }
 
 /* Subtitle */
@@ -41,32 +44,27 @@ h4 {
 
 /* Chapter Container */
 section {
-  
+  padding: 5%;
 }
 
 section > p {
-    
+  width: 40%;
+  float: right;
 }
 
 /* Drop Cap */
 section > p:first-of-type:first-letter { 
+  
+}
+
+figure {
   float: left;
-  font-size: 4em;
-  line-height: .8;
-  padding: 0 .2em;
-  font-family: Georgia;
-}
-
-figure.small {
-  
-}
-
-figure.full {
-  
+  width: 40%;
 }
 
 figure > img {
-  
+  width: 100%;
+  height: 100%;
 }
 
 figcaption {
