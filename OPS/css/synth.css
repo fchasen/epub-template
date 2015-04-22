@@ -1,0 +1,13 @@
+.female {
+	-epub-voice-family: betty, female;
+	voice-family: betty, female;
+	voice-balance: left;
+	voice-pitch: high;
+	voice-volume: -6dB;
+}
+
+.male {
+	-epub-voice-family: male;
+	voice-balance: right;
+	voice-rate: fast;
+}
